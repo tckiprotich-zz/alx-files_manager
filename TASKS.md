@@ -1,6 +1,3 @@
-# alx-files_manager
-This project is a summary of back-end trimester: authentication, NodeJS, MongoDB, Redis, pagination and background processing
-
 # Tasks To Complete
 
 + [x] 0. **Redis utils**
@@ -217,4 +214,3 @@ This project is a summary of back-end trimester: authentication, NodeJS, MongoDB
       + If no document is found in DB based on the userId, raise an error `User not found`.
       + Print in the console `Welcome <email>!`.
   + In real life, you can use a third party service like [Mailgun](https://www.mailgun.com/) to send real email. These API are slow, (sending via SMTP is worst!) and sending emails via a background job is important to optimize API endpoint.
-
